@@ -24,9 +24,6 @@ now = datetime.now()
 currentTime = now.strftime("%H:%M:%S")
 currentDay = date.today()
 
-
-
-
 #Creating log File as txt
 
 logFile = open("log.txt", "a")
